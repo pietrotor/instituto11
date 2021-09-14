@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;   
+    font-family: 'open sans';
+    font-weight: 600;    
+
+}
+.menu-container{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;  
+    align-items: center;  
+    height: 100%;    
+    
+}
+header .logo{
+    height: 100%;
+}
+.menu-container nav{
+    margin-left: auto;
+    margin-right: 0;
+    text-align: end;
+}
+.menu-container nav ul{
+    display: flex;
+    list-style: none;
+}
+.menu-container nav ul li{
+    padding: 0px 15px;
+}
+.menu-container nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+/* Seccion 2 imagen y boton */
+.seccion1-container-padre{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.container-hijo{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.container-hijo img{
+    max-width: 1100px;
+    width: 100%;
+}
+.container-hijo .boton{
+    display: flex;
+    width: 100%;    
+    justify-content: center;
+}
+.boton a{
+    margin: 20px 0;
+    padding: 20px 35px;
+    background-color: #9B59B6;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.boton a:hover{
+    background-color: #B266D1;
+}
+/* Seccion 3 formulario y textos extras */
+.seccion2-container-padre{
+    width: 100%;
+    background-color: black;
+    height: auto;
+    padding: 20px 0;
+    color: white;   
+    padding-bottom: 40px; 
+}
+.seccion2-container-padre .form-container{
+    width: 500px;
+    background-color: #444C4D;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    
+}
+.form-container h2{
+    text-align: center;
+    font-size: 5.0rem;
+    padding-bottom: 20px;
+}
+.form-container .texto-introductorio{
+    font-family: 'open sans';
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.form-container .texto-call-to-action{
+    margin-top: 10px;
+    margin-bottom: 17px;
+    font-family: 'open sans';
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.form-container input{
+    font-family: 'open sans';
+    font-size: 1.8rem;
+    width: 100%;
+    height: 55px;
+    margin: 7px 0;
+    padding: .9rem 1.1rem;
+    outline: 0;
+    border: 0.3px solid black;
+    border-radius: 5px;
+}
+.form-container #submit{
+    background-color: #36D5C7;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 700;
+}
+.reconocimientos-container{
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.reconocimientos-container img{    
+    width: 50%;
+}
+/* Seccion 4 Partnerts */
+.seccion3-container{
+    padding: 35px 0;
+    padding-top: 100px;
+    width: 100%;
+    height: auto;background-color: #ffffff;
+}
+.seccion3-container .title-container{
+    max-width: 1100px;
+    margin: 0 auto;   
+    display: flex;
+}
+.title-container img{
+    margin-left: auto;
+    margin-right: 0;
+}
+.seccion3-container .partner-container{
+    max-width: 1100px;
+    margin: 0 auto;  
+    display: flex;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.partner-container .partner{
+    width: 25%;
+    margin: 0 10px;
+}
+.partner:first-child{
+    margin-left: 0;
+}
+.partner:last-child{
+    margin-right: 0;
+}
+.partner img{
+    width: 100%;
+}
+/* seccion 5 imagenes recomendaciones */
+.seccion4-container{
+    width: 100%;
+    height: auto;
+}
+.seccion4-container .img-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 4.5rem;
+    padding-bottom: 3.5rem;
+    background-color: #ffffff;
+}
+.img-container img{
+    width: 33%;
+    padding-left: 1.9rem;
+}
+.img-container .img-container-row{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+}
+/* Seccion 6 texto */
+.seccion5-container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: 'open sans';
+    padding: 3rem 0;
+    padding-bottom: 12rem;
+}
+.seccion5-container .content-container{
+    max-width: 950px;
+    margin: 0 auto;    
+}
+.seccion5-container .content-container img{
+    display: block;    
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    width: 30rem;
+}
+.seccion5-container .content-container p{
+    line-height: 3.5rem;
+    margin: 1.8rem;
+    font-size: 1.8rem;
+}
+.seccion5-container .content-container p:last-child{
+    margin-bottom: 0;
+}
+/* Footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    font-family: 'open sans';
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+.footer-container{
+    max-width: 1100px;    
+    color: white;
+    margin: 0 auto;
+}
+.footer-container nav{
+    padding: 2rem 0;
+}
+.footer-container nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.footer-container nav ul li{
+    padding: 1rem 1.5rem;
+}
+.footer-container nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.footer-container nav ul li a:hover{
+    color: #444C4D;
+    transition: 100ms;
+}
+.footer-container .social-media span{
+    font-size: 2.5rem;
+    padding: 0 0.8rem;
+    color: #3B3E25;
+}
